@@ -1,0 +1,65 @@
+.mainscreen {
+  /* border: 2px solid red; */
+  width: 75%;
+  margin: 16px auto;
+  /* border:1px solid red; */
+
+}
+.mainscreen h3 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #000;
+  padding-left:5px;
+  /* display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold; */
+}
+
+.filterdiv{
+  display:flex;
+  margin-top:5px;
+  align-items:center;
+  /* border:1px solid red; */
+}
+
+.filterdiv img {
+  width: 25px;
+  height: 25px;
+}
+
+.filterdiv h3 {
+  /* display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0;
+  padding-top: 1em; */
+  font-size: .85em;
+  font-weight:600;
+  margin-left:0.5em;
+}
+.filterPill{
+  margin-top:0.5em;
+}
+.cards{
+display:grid;
+grid-template-columns: repeat(4, 1fr);
+gap:2em;
+margin-top: 2em;
+max-width: 100%;
+}

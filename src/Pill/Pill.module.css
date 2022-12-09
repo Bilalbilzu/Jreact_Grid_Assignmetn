@@ -1,0 +1,20 @@
+.pill {
+  width: auto;
+  font-size: 0.75em;
+  color: #0084ff;
+  padding: 6px 16px;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.active{
+  background: linear-gradient(296deg,#0048ff,#0096ff);
+  color:white;
+  
+}
+.pill:hover{
+  transform: scale(1.02);
+  box-shadow: 10px 10px 10px grey;
+}

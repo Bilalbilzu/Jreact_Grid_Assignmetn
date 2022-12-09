@@ -1,0 +1,148 @@
+.Hcontainer {
+  /* border: 1px solid red; */
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  line-height: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 1px #ccc;
+  box-shadow: 0 1px 1px #ccc;
+  position: sticky;
+  top:0;
+  z-index: 100;
+  padding-left:20px;
+  padding-right:20px;
+}
+.left {
+  /* border: 1px solid black; */
+  width: 20%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-top: 5px;
+}
+.logo p {
+  font-size: 2.1em;
+  margin-top: 0;
+  width: 130px;
+  -webkit-font-smoothing: antialiased;
+  background-image: linear-gradient(269deg, #0048ff, #0096ff),
+    linear-gradient(#000, #000);
+  color: #0084ff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.08;
+  letter-spacing: -0.9px;
+  text-align: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  align-self: center;
+}
+.logo span {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: -20px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  font-family: Raleway, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: 0.9px;
+  color: #000;
+
+  -o-object-fit: contain;
+  object-fit: contain;
+  font-family: Raleway, sans-serif;
+  font-size: 0.75em;
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: 0.9px;
+  color: #000;
+}
+.right {
+  /* border: 1px solid black; */
+  width: 40%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 70px;
+  margin-top: 5px;
+}
+.p{
+  max-width: 345px;
+  opacity:.6;
+  font-family: Raleway,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: .4px;
+  text-align: left;
+  color:rgba(0,0,0,.6);
+  margin:0;
+  padding:0;
+}
+
+.htext {
+  min-width: 23em;
+  opacity: 0.6;
+  font-family: Raleway, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 0.5em;
+  margin-right: 0px;
+}
+.button {
+  margin-left: 0px;
+  width: 200px;
+  box-shadow: none;
+  height: 36px;
+  min-width: 100px;
+  overflow-wrap: break-word;
+  border-radius: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer; 
+  font-size: 0.73em;
+  color: #fff;
+  outline: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03em;
+  background: #0084ff;
+  background: -webkit-linear-gradient(269deg, #0048ff, #0096ff);
+  background: -webkit-linear-gradient(181deg, #0048ff, #0096ff);
+  background: -o-linear-gradient(181deg, #0048ff, #0096ff);
+  background: linear-gradient(269deg, #0048ff, #0096ff);
+}
